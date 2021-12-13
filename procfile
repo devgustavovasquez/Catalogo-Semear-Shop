@@ -1,1 +1,1 @@
-web: node getAPI.js
+web: npm start
