@@ -5,7 +5,7 @@ const axios = require("axios")
 const { response } = require("express")
 const porta = 4040
 // Configurações 
-dotenv.config()
+
 app.use(cors())
 app.use('/static', express.static('static'))
 

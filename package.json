@@ -1,4 +1,9 @@
 {
+  "name": "back-end",
+  "main": "getAPI.js",
+  "scripts": {
+    "start": "node getAPI.js"
+  },
   "dependencies": {
     "axios": "^0.24.0",
     "cors": "^2.8.5",
