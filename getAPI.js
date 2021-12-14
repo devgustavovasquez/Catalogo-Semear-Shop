@@ -3,7 +3,7 @@ const cors = require("cors")
 const app = express()
 const axios = require("axios")
 const { response } = require("express")
-const porta = 4040
+const porta = process.env.PORT || 4040
 // Configurações 
 
 app.use(cors())
