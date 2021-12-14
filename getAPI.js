@@ -20,5 +20,9 @@ app.use('/static', express.static('static'))
   });
 //Definindo a rota para cada produto constado na API
   }
+  app.get('/', (req, res) => {
+    res.sendFile((__dirname+"/index.html"))
+  })
+
   collect()
 app.listen(porta, () => console.log(`🚀 Server is running on PORT ${porta}`))

@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none
+}
+
+body {
+  background: radial-gradient(#ffffff 0%, #b1d1cf 300%);
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow-x: hidden;
+  font-size: 11px;
+  font-family: 'Baloo 2', cursive;
+}
+a {
+  text-decoration: none;
+}
+
+.logo {
+  margin-top: 20px;
+}
+
+.produtos ul {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+li {
+  height: 150px;
+  width: 200px;
+  margin: 20px 20px;
+  background-color: #5bf14742;
+  border-radius: 10px 10px 0px 0px ;
+  filter: drop-shadow(1px 2px 10px rgba(0, 0, 0, 0.25));
+}
+
+li img {
+  max-height: 100%;
+  max-width:  100%;
+  margin: auto;
+}
+
+li div {
+  position:   relative;
+  background-color: #5bf147;
+  height: 30px;
+  top: -28px;
+  border-radius: 0px 0px 10px 10px;
+  filter: drop-shadow(0px 0px 2px rgba(0, 0, 0, 0.25));
+}
+
+div h2 {
+  padding: 2px;
+  margin-left: 8px;
+  color: #ffffff;
+  font-weight: 400;
+}
