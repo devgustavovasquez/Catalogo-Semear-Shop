@@ -30,7 +30,7 @@ E o mais interessante é que todos os dados são atualizados no momento em que a
 </div>
 
 <br/><br/>
-### Caso queira acessa o projeto, clique [aqui](https://catalogo-semear-shop.herokuapp.com/).
+### Caso queira acessar o projeto, clique [aqui](https://catalogo-semear-shop.herokuapp.com/).
 <br/><br/>
 ## ⚙ Tecnologias Usadas
 
